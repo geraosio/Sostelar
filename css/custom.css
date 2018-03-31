@@ -1,0 +1,84 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Navbar */
+
+.navbar {
+  background: rgb(128,0,128);
+  z-index: 10;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  background-color: #fff;
+  color: rgb(128,0,128) !important;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+#btn-dona {
+  background: rgba(230, 230, 250);
+}
+
+/* Title Section */
+
+.title-section {
+  background:
+    linear-gradient(27deg, rgba(230,230,250,0.5) 0%, rgba(128,0,128,0.5) 100%),
+    url("../assets/img/mujer_libre-1.JPG");
+  background-attachment: fixed;
+  color: #fff;
+  padding: 200px 0px;
+}
+
+/* Sections */
+
+#quienes-somos, #que-ofrecemos, #alianzas, #equipo, #contacto {
+  padding: 60px 50px;
+}
+
+#que-ofrecemos, #equipo {
+  background: rgba(230, 230, 250, 0.3);
+}
+
+/* Contact Section */
+
+.contact-icons {
+  padding: 0 1em;
+}
+
+/* Footer */
+
+footer {
+  background: rgb(128,0,128);
+  color: #fff;
+}
+
+.oi-chevron-top {
+  color: #fff;
+  font-size: 24px;
+}
+
+.oi-chevron-top:hover {
+  color: lightgrey;
+}
+
+.oi-code {
+  color: lightgrey;
+}
+
+.oi-heart {
+  color: red;
+}
+
+.oi-bolt {
+  color: yellow;
+}
