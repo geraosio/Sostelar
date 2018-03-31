@@ -4,6 +4,8 @@
 
 [_Data_](https://docs.google.com/presentation/d/14NY-uN6zZPzSeFb0a9QIUJzU7F81dTCNXymqilRhpGE/edit#slide=id.g247019341a_0_86)
 
+- [ ] Add <hr> line below every section title [like this](https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm).
+
 #### Navbar
 - [ ] Fix scrollspy (Not working).
 - [ ] Check compatibility with old browsers (color alpha not working).
@@ -29,6 +31,7 @@
 - [ ] Add link to Google Maps
 - [ ] Add verification information to the form
 - [ ] Add functionality to "Enviar" button, making the input information be send as an email to Sostelar's email.
+- [ ] Change "Enviar" button's colors
 
 #### Footer
 - [ ] Add link to ThunderMX
