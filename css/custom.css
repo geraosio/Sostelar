@@ -32,7 +32,7 @@ body {
 
 .title-section {
   background:
-    linear-gradient(27deg, rgba(230,230,250,0.5) 0%, rgba(128,0,128,0.5) 100%),
+    linear-gradient(135deg, rgba(128,0,128,0.75) 0%, rgba(230,230,250,0.5) 100%),
     url("../assets/img/mujer_libre-1.JPG");
   background-attachment: fixed;
   color: #fff;
