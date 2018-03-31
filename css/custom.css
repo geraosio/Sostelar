@@ -41,12 +41,17 @@ body {
 
 /* Sections */
 
-#quienes-somos, #que-ofrecemos, #alianzas, #equipo, #contacto {
+/* #quienes-somos, #que-ofrecemos, #alianzas, #equipo, #contacto {
   padding: 60px 50px;
-}
+} */
 
 #que-ofrecemos, #equipo {
   background: rgba(230, 230, 250, 0.3);
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
 }
 
 /* Contact Section */
