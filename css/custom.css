@@ -1,3 +1,18 @@
+/*
+  ===COLORS===
+  ---Custom purple---
+  rgb(128,0,128)
+  linear-gradient(135deg, rgba(128,0,128,0.75) 0%, rgba(230,230,250,0.5) 100%)
+
+  ---Victoria Purple---
+  rgb(49,42,108)
+  linear-gradient(45deg, rgba(49,42,108,1) 0%, rgba(133,45,145,1) 100%);
+
+  ---Purple Lake--
+  rgb(102,45,140)
+  linear-gradient(45deg, rgba(102,45,140,1) 0%, rgba(237,30,121,1) 100%);
+*/
+
 body {
   font-family: 'Poppins', sans-serif !important;
   overflow-y: auto;
@@ -33,20 +48,47 @@ body {
 .title-section {
   background:
     linear-gradient(135deg, rgba(128,0,128,0.75) 0%, rgba(230,230,250,0.5) 100%),
-    url("../assets/img/mujer_libre-1.JPG");
+    url("../assets/img/mujer_libre-1.JPG")
+    center/cover;
   background-attachment: fixed;
   color: #fff;
-  padding: 200px 0px;
+  height: 100vh;
+  /* padding: 200px 0px; */
+}
+/**
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  .title-section {
+    height: 1024px;
+  }
+}
+/**
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  .title-section {
+    height: 768px;
+  }
+}
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  .title-section {
+    height: 500px;
+  }
+}
+
+.title-content {
+  height: 100%;
 }
 
 /* Sections */
 
 #que-ofrecemos, #equipo {
   background: rgba(230, 230, 250, 0.3);
-}
-
-.display-2 {
-  font-weight: 400;
 }
 
 h2 {

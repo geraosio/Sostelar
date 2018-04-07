@@ -18,6 +18,7 @@
 
 - [x] Add <hr> line below every section title [like this](https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm).
 - [ ] Add smooth scroll [like this](http://iamdustan.com/smoothscroll/).
+- [x] Center text in title-section
 
 #### Navbar
 - [ ] Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
