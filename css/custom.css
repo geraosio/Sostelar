@@ -109,6 +109,27 @@ hr {
   padding: 0 1em;
 }
 
+#contacto a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-phone:hover {
+  color: rgb(0,129,198);
+}
+
+.contact-email:hover {
+  color: rgb(124,117,117);
+}
+
+.contact-social-networks:hover {
+  color: rgb(128,0,128);
+}
+
+.contact-address:hover {
+  color: rgb(14,149,119);
+}
+
 /* Footer */
 
 footer {
@@ -127,12 +148,25 @@ footer {
 
 .oi-code {
   color: lightgrey;
+  padding: 0 2px;
 }
 
 .oi-heart {
   color: red;
+  padding: 0 2px;
 }
 
 .oi-bolt {
   color: yellow;
+  padding: 0 2px;
+}
+
+footer p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: yellow;
+  text-decoration: none;
 }
