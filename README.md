@@ -18,19 +18,23 @@ Through one of my university's social service groups called ThunderMX, my team a
 - [ ] Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
 
 ### Sections
+##### Quienes somos
+- [ ] Search for a serif font for paragraphs
+
 ##### Que ofrecemos
 - [ ] Make all images full height of the container
-- [ ] Try adding shadows to images
-- [ ] Add name of all projects below each image
+- [x] ~~Add shadows to images~~
+- [x] ~~Add name of all projects below each image~~
 - [ ] Add modal to all (3) projects
 
 ##### Alianzas
-- [ ] Add logos of ally organizations
+- [x] ~~Add logos of ally organizations~~
 - [ ] Add links to the logos
 
 ##### Equipo
-- [ ] Add an image and name of each team member(5).
+- [x] ~~Add an image and name of each team member(5).~~
 - [ ] Add modal to images to display experience, etc.
+- [ ] Add media queries to change from 2 row of 3 to 3 rows of 2.
 
 ##### Contacto
 - [x] ~~Add link to both phone numbers (If on mobile add link to call the number)~~
