@@ -240,7 +240,12 @@ footer p a {
   text-decoration: none;
 }
 
-footer p a:hover {
+#gerardoOsioLink:hover {
+  color: rgb(253,112,20);
+  text-decoration: none;
+}
+
+#thunderMXLink:hover {
   color: yellow;
   text-decoration: none;
 }
