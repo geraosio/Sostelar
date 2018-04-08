@@ -1,6 +1,6 @@
 # Sostelar A.C. website
 
-<img src="assets/img/logo.png" width=150px><img src="assets/img/sostelarac_font.png" width="400px">
+<img src="assets/img/logo.png" width=150px><img src="assets/img/sostelarac_font.png" width="500px">
 
 ## Background
 Sostelar A.C. is an NGO operating in Monterrey, Mexico, who helps women who have been a victim of violence through workshops about ethics, finance and psychology.
@@ -13,6 +13,7 @@ Through one of my university's social service groups called ThunderMX, my team a
 - [x] ~~Add a horizontal rule below every section title [like this](https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm).~~
 - [ ] Add smooth scroll [like this](http://iamdustan.com/smoothscroll/).
 - [x] ~~Center text in title-section~~
+- [ ] Update website information with [new information here](https://docs.google.com/spreadsheets/d/1lN2V2Sp20G9QgJ0n1R_6uiSQTgtVZpMZl4D1HAC6bBY/edit#gid=0)
 
 ##### Navbar
 - [ ] Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
@@ -25,7 +26,7 @@ Through one of my university's social service groups called ThunderMX, my team a
 - [ ] Make all images full height of the container
 - [x] ~~Add shadows to images~~
 - [x] ~~Add name of all projects below each image~~
-- [ ] Add modal to all (3) projects
+- [x] ~~Add modal to all (3) projects~~
 
 ##### Alianzas
 - [x] ~~Add logos of ally organizations~~
