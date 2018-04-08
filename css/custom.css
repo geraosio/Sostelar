@@ -13,13 +13,23 @@
   linear-gradient(45deg, rgba(102,45,140,1) 0%, rgba(237,30,121,1) 100%);
 */
 
+/*
+  ===
+  === General ===
+  ===
+*/
+
 body {
   font-family: 'Poppins', sans-serif !important;
   overflow-y: auto;
   position: relative;
 }
 
-/* Navbar */
+/*
+  ===
+  === Navbar ===
+  ===
+*/
 
 .navbar {
   background: rgb(128,0,128);
@@ -43,7 +53,11 @@ body {
   background: rgba(230, 230, 250);
 }
 
-/* Title Section */
+/*
+  ===
+  === Title Section ===
+  ===
+*/
 
 .title-section {
   background:
@@ -55,26 +69,25 @@ body {
   height: 100vh;
   /* padding: 200px 0px; */
 }
-/**
- * iPad with portrait orientation.
- */
+/*
+  --- iPad with portrait orientation. ---
+*/
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
   .title-section {
     height: 1024px;
   }
 }
-/**
- * iPad with landscape orientation.
- */
+/*
+  --- iPad with landscape orientation. ---
+*/
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
   .title-section {
     height: 768px;
   }
 }
-/**
- * iPhone 5
- * You can also target devices with aspect ratio.
- */
+/*
+  --- iPhone 5 ---
+*/
 @media screen and (device-aspect-ratio: 40/71) {
   .title-section {
     height: 500px;
@@ -86,14 +99,10 @@ body {
 }
 
 /*
-
+  ===
   === Sections ===
-
+  ===
 */
-
-#que-ofrecemos, #equipo {
-  background: rgba(230, 230, 250, 0.3);
-}
 
 h2 {
   color: rgb(128,0,128);
@@ -107,10 +116,18 @@ hr {
   width: 70px;
 }
 
-/* Quienes somos section */
+/*
+  --- Quienes somos ---
+*/
 
 
-/* Que ofrecemos section */
+/*
+  --- Que ofrecemos ---
+*/
+#que-ofrecemos {
+  background: rgba(230, 230, 250, 0.3);
+}
+
 #que-ofrecemos img {
   box-shadow: 4px 4px 30px 2px rgba(0, 0, 0, 0.3);
   height: auto;
@@ -122,14 +139,27 @@ hr {
   padding-top: 5%;
 }
 
-/* Alianzas Section */
+#que-ofrecemos a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+  --- Alianzas ---
+*/
 #alianzas img {
   /* box-shadow: 25px 25px 40px 2px rgba(0, 0, 0, 0.3); */
   height: auto;
   max-width: 100%;
 }
 
-/* Equipo Section */
+/*
+  --- Equipo ---
+*/
+#equipo {
+  background: rgba(230, 230, 250, 0.3);
+}
+
 #equipo img {
   border-radius: 50%;
   box-shadow: 2px 2px 30px 2px rgba(0, 0, 0, 0.3);
@@ -142,7 +172,9 @@ hr {
   padding-top: 5%;
 }
 
-/* Contact Section */
+/*
+  --- Contacto ---
+*/
 .contact-icons {
   padding: 0 1em;
 }
@@ -168,7 +200,11 @@ hr {
   color: rgb(14,149,119);
 }
 
-/* Footer */
+/*
+  ===
+  === Footer ===
+  ===
+*/
 
 footer {
   background: rgb(128,0,128);

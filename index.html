@@ -60,13 +60,13 @@
             <img src="assets/img/logo.png" class="w-25">
             <h1 class="display-1">Sostelar A.C.</h1>
             <p class="lead">Mujeres reconstruyendo el tejido social</p>
-          </div>
-        </div>
-      </div>
-    </div>
+          </div> <!-- col -->
+        </div> <!-- row -->
+      </div> <!-- container title-container -->
+    </div> <!-- jumbotron title-section -->
 
     <div id="quienes-somos" class="container-fluid">
-      <div class="container pt-4 pb-5">
+      <div class="container py-5">
         <div class="row">
           <div class="col">
             <h2>Quienes somos</h2>
@@ -81,13 +81,13 @@
           <div class="col-sm">
             <div class="row">
               <div class="col">
-                <h4>Mision</h4>
+                <h4>Misión</h4>
                 <p>Implementar programas de intervención para impulsar a las mujeres como agentes de cambio, con el fin de que utilizando sus propios recursos generen una transformación social palpable, trascendente y sostenible.</p>
               </div>
             </div> <!-- Row Mision -->
             <div class="row">
               <div class="col">
-                <h4>Vision</h4>
+                <h4>Visión</h4>
                 <p>Ser una institución mexicana que impulse el crecimiento integral de las personas para que los proyectos que se lleven a cabo generen mayor productividad, igualdad y calidad de vida para toda la población.</p>
               </div>
             </div> <!-- Row Vision -->
@@ -106,17 +106,98 @@
         </div>
         <div class="row align-items-center py-2">
           <div class="col-sm-4">
-            <img class="img-fluid rounded" src="assets/img/brigada_salud-1.JPG" alt="Brigada Salud">
-            <p>Brigada Salud</p>
-          </div>
+            <a data-toggle="modal" data-target="#modalQueOfrecemosLeft">
+              <img class="img-fluid rounded" src="assets/img/brigada_salud-1.JPG" alt="Brigada Salud">
+              <p>Brigada Salud</p>
+            </a>
+          </div> <!-- col-sm-4 -->
+          <!-- Modal -->
+          <div class="modal fade" id="modalQueOfrecemosLeft" tabindex="-1" role="dialog" aria-labelledby="modalTitleQueOfrecemosLeft" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalTitleQueOfrecemosLeft">Brigada Salud</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> <!-- modal-header -->
+                <div class="modal-body">
+                  <h4>Objetivo:</h4>
+                  En alianza con Seguridad Pública de Monterrey, promover la participación de las mujeres en actividades formativas que impulsen su desarrollo integral para que disfruten de una vida libre de codependencia, dotandolas de herramientas de afrontamiento.
+                  <h4>Duración:</h4>
+                  Indefinido,  iniciando abril 2016
+                  <h4>Lugar:</h4>
+                  Monterrey y su área metropolitanas
+                </div> <!-- modal-body -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div> <!-- modal-footer -->
+              </div> <!-- modal-content -->
+            </div> <!-- modal-dialog -->
+          </div> <!-- modal -->
+
           <div class="col-sm-4">
-            <img class="img-fluid rounded" src="assets/img/mujer_libre-1.JPG" alt="Mujer Libre">
-            <p>Mujer Libre</p>
-          </div>
+            <a data-toggle="modal" data-target="#modalQueOfrecemosCenter">
+              <img class="img-fluid rounded" src="assets/img/mujer_libre-1.JPG" alt="Mujer Libre">
+              <p>Mujer Libre</p>
+            </a>
+          </div> <!-- col-sm-4 -->
+          <!-- Modal -->
+          <div class="modal fade" id="modalQueOfrecemosCenter" tabindex="-1" role="dialog" aria-labelledby="modalTitleQueOfrecemosCenter" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalTitleQueOfrecemosCenter">Mujer Libre</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> <!-- modal-header -->
+                <div class="modal-body">
+                  <h4>Objetivo:</h4>
+                  En alianza con Seguridad Pública de Monterrey, promover la participación de las mujeres en actividades formativas que impulsen su desarrollo integral para que disfruten de una vida libre de codependencia, dotandolas de herramientas de afrontamiento.
+                  <h4>Duración:</h4>
+                  Indefinido,  iniciando abril 2016
+                  <h4>Lugar:</h4>
+                  Monterrey y su área metropolitanas
+                </div> <!-- modal-body -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div> <!-- modal-footer -->
+              </div> <!-- modal-content -->
+            </div> <!-- modal-dialog -->
+          </div> <!-- modal -->
+
           <div class="col-sm-4">
-            <img class="img-fluid rounded" src="assets/img/ssc_tec-1.JPG" alt="Servicio Social Tec">
-            <p>Servicio Social Tec</p>
-          </div>
+            <a data-toggle="modal" data-target="#modalQueOfrecemosRight">
+              <img class="img-fluid rounded" src="assets/img/ssc_tec-1.JPG" alt="Servicio Social Tec">
+              <p>Servicio Social Tec</p>
+            </a>
+          </div> <!-- col-sm-4 -->
+          <!-- Modal -->
+          <div class="modal fade" id="modalQueOfrecemosRight" tabindex="-1" role="dialog" aria-labelledby="modalTitleQueOfrecemosRight" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalTitleQueOfrecemosRight">Servicio Social Tec</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div> <!-- modal-header -->
+                <div class="modal-body">
+                  <h4>Objetivo:</h4>
+                  En alianza con Seguridad Pública de Monterrey, promover la participación de las mujeres en actividades formativas que impulsen su desarrollo integral para que disfruten de una vida libre de codependencia, dotandolas de herramientas de afrontamiento.
+                  <h4>Duración:</h4>
+                  Indefinido,  iniciando abril 2016
+                  <h4>Lugar:</h4>
+                  Monterrey y su área metropolitanas
+                </div> <!-- modal-body -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div> <!-- modal-footer -->
+              </div> <!-- modal-content -->
+            </div> <!-- modal-dialog -->
+          </div> <!-- modal -->
+
         </div> <!-- row with images -->
       </div> <!-- container -->
     </div> <!-- Que ofrecemos -->
@@ -286,8 +367,8 @@
         <span class="oi oi-chevron-top" title="Ir arriba"></span>
       </a>
       <p class="pt-2">
-        <span class="oi oi-code" title"code"></span> with <span class="oi oi-heart" title="heart"></span> by <a href="https://www.facebook.com/ThunderTecMx/" target="_blank"><span class="oi oi-bolt"></span>MX</a>
-      </p> <!-- Coded with love by ThunderMX -->
+        <span class="oi oi-code" title"code"></span> by <a href="https://www.facebook.com/ThunderTecMx/" target="_blank"><span class="oi oi-bolt"></span>MX</a>
+      </p>
     </footer>
 
     <!-- Optional JavaScript -->
