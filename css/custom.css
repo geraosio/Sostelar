@@ -107,7 +107,6 @@ body {
 h2 {
   color: rgb(128,0,128);
   font-size: 48px;
-  font-weight: bold;
 }
 
 hr {
@@ -120,6 +119,13 @@ hr {
   --- Quienes somos ---
 */
 
+#quienes-somos h4 {
+  font-weight: 600;
+}
+
+#quienes-somos h5 {
+  font-weight: bold;
+}
 
 /*
   --- Que ofrecemos ---

@@ -1,5 +1,7 @@
-# Development
-- [Data](https://docs.google.com/presentation/d/14NY-uN6zZPzSeFb0a9QIUJzU7F81dTCNXymqilRhpGE/edit#slide=id.g247019341a_0_86)
+# Development Notes
+
+## General
+- [Sostelar Information](https://docs.google.com/presentation/d/14NY-uN6zZPzSeFb0a9QIUJzU7F81dTCNXymqilRhpGE/edit#slide=id.g247019341a_0_86)
 - [Bootstrap spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 
 ## Components
@@ -10,5 +12,5 @@
 ## Colors
 - [Purple hues](https://www.rapidtables.com/web/color/purple-color.html)
 - [Grey hues](https://www.rapidtables.com/web/color/gray-color.html)
-- [Coolors](coolors.co) to save color palettes (use account).
-- [Color Hunt](colorhunt.co) color palette ideas.
+- [Coolors](https://coolors.co) to save color palettes (use account).
+- [Color Hunt](https://colorhunt.co) color palette ideas.
