@@ -13,7 +13,7 @@ Through one of my university's social service groups called ThunderMX, my team a
 - [x] ~~Add a horizontal rule below every section title [like this](https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm).~~
 - [ ] Add smooth scroll [like this](http://iamdustan.com/smoothscroll/).
 - [x] ~~Center text in title-section~~
-- [ ] Update website information with [new information here](https://docs.google.com/spreadsheets/d/1lN2V2Sp20G9QgJ0n1R_6uiSQTgtVZpMZl4D1HAC6bBY/edit#gid=0)
+- [ ] Update website information with new information.
 
 ##### Navbar
 - [ ] Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
@@ -28,9 +28,9 @@ Through one of my university's social service groups called ThunderMX, my team a
 - [x] ~~Add name of all projects below each image~~
 - [x] ~~Add modal to all (3) projects~~
 
-##### Alianzas
+##### Alianzas DONE
 - [x] ~~Add logos of ally organizations~~
-- [ ] Add links to the logos
+- [x] ~~Add links to the logos~~
 
 ##### Equipo
 - [x] ~~Add an image and name of each team member(5).~~
