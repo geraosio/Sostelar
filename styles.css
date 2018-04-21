@@ -62,7 +62,7 @@ body {
 .title-section {
   background:
     linear-gradient(135deg, rgba(128,0,128,0.75) 0%, rgba(230,230,250,0.5) 100%),
-    url("../assets/img/hero-image.JPG")
+    url("assets/img/hero-image.JPG")
     center/cover;
   background-attachment: fixed;
   color: #fff;
@@ -243,6 +243,15 @@ hr {
 
 .contact-address:hover {
   color: rgb(14,149,119);
+}
+
+#contacto button {
+  background-color: rgba(139, 141, 122, 0.25);
+}
+
+#contacto button:hover {
+  background-color: rgb(128, 0, 128);
+  color: white;
 }
 
 /*

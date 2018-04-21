@@ -16,7 +16,7 @@
     <link href="assets/icons/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 
     <!-- Custom stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <title>Sostelar A.C.</title>
   </head>
@@ -540,8 +540,8 @@
                 <div class="col mb-2">
                   <label class="pl-1" for="validationName">Nombre</label>
                   <input type="text" class="form-control" id="validationName" placeholder="Nombre" required>
-                  <div class="valid-feedback">
-                    Esta bien!
+                  <div class="invalid-feedback">
+                    Porfavor escribe tu nombre para poder dirigirnos por tu nombre
                   </div>
                 </div> <!-- col name -->
               </div> <!-- form row name -->
@@ -551,6 +551,9 @@
                   <input type="email" class="form-control" id="validationEmail" placeholder="Email" required>
                   <div class="valid-feedback">
                     Parece que esta bien!
+                  </div>
+                  <div class="invalid-feedback">
+                    Porfavor escribe tu correo electronico para poder contactarte
                   </div>
                 </div> <!-- col email -->
               </div> <!-- form row email -->
@@ -565,7 +568,7 @@
               </div> <!-- form row comment -->
               <div class="form-row">
                 <div class="col d-flex justify-content-end mt-2">
-                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <button type="submit" class="btn">Enviar</button>
                 </div> <!-- col button -->
               </div> <!-- form row button -->
             </form>
@@ -583,6 +586,7 @@
       </p>
     </footer>
 
+    <script type="text/javascript" src="js/script.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
