@@ -23,19 +23,20 @@ Through one of my university's social service groups called ThunderMX, my team a
 - [ ] Search for a serif font for paragraphs
 
 ##### Que ofrecemos
-- [ ] Make all images full height of the container
+- [x] ~~Make all images full height of the container~~
 - [x] ~~Add shadows to images~~
 - [x] ~~Add name of all projects below each image~~
 - [x] ~~Add modal to all (3) projects~~
 
-##### Alianzas DONE
+##### Alianzas
 - [x] ~~Add logos of ally organizations~~
 - [x] ~~Add links to the logos~~
+- [ ] Add media queries to change from 2 rows of 3 to 3 rows of 2.
 
 ##### Equipo
 - [x] ~~Add an image and name of each team member(5).~~
 - [ ] Add modal to images to display experience, etc.
-- [ ] Add media queries to change from 2 row of 3 to 3 rows of 2.
+- [ ] Add media queries to change from 2 rows of 3 to 3 rows of 2.
 
 ##### Contacto
 - [x] ~~Add link to both phone numbers (If on mobile add link to call the number)~~
