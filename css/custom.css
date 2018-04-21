@@ -62,7 +62,7 @@ body {
 .title-section {
   background:
     linear-gradient(135deg, rgba(128,0,128,0.75) 0%, rgba(230,230,250,0.5) 100%),
-    url("../assets/img/mujer_libre-1.JPG")
+    url("../assets/img/hero-image.JPG")
     center/cover;
   background-attachment: fixed;
   color: #fff;
