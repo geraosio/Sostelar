@@ -53,6 +53,10 @@ body {
   background: rgba(230, 230, 250);
 }
 
+a {
+  cursor: pointer;
+}
+
 /*
   ===
   === Title Section ===
