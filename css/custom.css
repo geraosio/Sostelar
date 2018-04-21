@@ -193,13 +193,28 @@ hr {
 #equipo img {
   border-radius: 50%;
   box-shadow: 2px 2px 30px 2px rgba(0, 0, 0, 0.3);
-  height: auto;
-  max-width: 100%;
+  height: 200px;
+  width: 200px;
 }
 
-#equipo p {
+#equipo a > p {
   font-size: 1.25em;
   padding-top: 5%;
+}
+
+#equipo h3 {
+  color: rgb(128,0,128);
+  font-weight: 400;
+}
+
+#equipo h4 {
+  color: rgb(128,0,128);
+  font-weight: 600;
+  text-align: center;
+}
+
+#equipo .modal-body {
+  text-align: left;
 }
 
 /*
