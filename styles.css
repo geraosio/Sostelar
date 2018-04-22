@@ -88,14 +88,6 @@ a {
     height: 768px;
   }
 }
-/*
-  --- iPhone 5 ---
-*/
-@media screen and (device-aspect-ratio: 40/71) {
-  .title-section {
-    height: 500px;
-  }
-}
 
 .title-content {
   height: 100%;
@@ -219,6 +211,22 @@ hr {
 #equipo .modal-body {
   text-align: left;
 }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #equipo img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 374.98px) {
+  #equipo img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
 
 /*
   --- Contacto ---
