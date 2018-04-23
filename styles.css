@@ -207,12 +207,6 @@ hr {
   font-weight: 400;
 }
 
-#equipo h4 {
-  color: rgb(128,0,128);
-  font-weight: 600;
-  text-align: center;
-}
-
 #equipo .modal-body {
   text-align: left;
 }
