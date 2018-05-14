@@ -14,3 +14,6 @@
 - [Grey hues](https://www.rapidtables.com/web/color/gray-color.html)
 - [Coolors](https://coolors.co) to save color palettes (use account).
 - [Color Hunt](https://colorhunt.co) color palette ideas.
+
+## Contact form implemenation
+- [Using Google Script](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server)

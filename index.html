@@ -530,43 +530,37 @@
             </div> <!-- row address -->
           </div> <!-- col-md-5 -->
           <div class="col-md-7">
-            <form class="needs-validation" novalidate>
-              <div class="form-row">
-                <div class="col mb-2">
-                  <label class="pl-1" for="validationName">Nombre</label>
-                  <input type="text" class="form-control" id="validationName" placeholder="Nombre" required>
-                  <div class="invalid-feedback">
-                    Porfavor escribe tu nombre para poder dirigirnos por tu nombre
-                  </div>
-                </div> <!-- col name -->
-              </div> <!-- form row name -->
-              <div class="form-row">
-                <div class="col mb-2">
-                  <label class="pl-1" for="validationEmail">Email</label>
-                  <input type="email" class="form-control" id="validationEmail" placeholder="Email" required>
-                  <div class="valid-feedback">
-                    Parece que esta bien!
-                  </div>
-                  <div class="invalid-feedback">
-                    Porfavor escribe tu correo electronico para poder contactarte
-                  </div>
-                </div> <!-- col email -->
-              </div> <!-- form row email -->
-              <div class="form-row">
-                <div class="col mb-2">
-                  <label class="pl-1" for="validationComment">Comentario</label>
-                  <textarea class="form-control" id="validationComment" rows="3" required></textarea>
-                  <div class="invalid-feedback">
-                    Escribenos un comentario, duda o sugerencia que tengas.
-                  </div>
-                </div> <!-- col comment -->
-              </div> <!-- form row comment -->
-              <div class="form-row">
-                <div class="col d-flex justify-content-end mt-2">
-                  <button type="submit" class="btn">Enviar</button>
-                </div> <!-- col button -->
-              </div> <!-- form row button -->
+            <form id="gform" class="needs-validation" method="POST" action="https://script.google.com/macros/s/AKfycbz3xiE3nv4Itd-yJZU-DY5wBXlPtY1R_XY3jla2Xk0hVtNQ-w0/exec">
+              <div class="form-group">
+                <label for="validationName">Nombre</label>
+                <input type="text" id="validationName" class="form-control" name="name" placeholder="Nombre" required>
+                <div class="invalid-feedback">
+                  Porfavor escribe tu nombre para poder dirigirnos por tu nombre
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="validationEmail">Email</label>
+                <input type="email" id="validationEmail" class="form-control" name="email" placeholder="Email" required>
+                <div class="invalid-feedback">
+                  Porfavor escribe tu correo electronico para poder contactarte
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="validationComment">Comentario</label>
+                <textarea id="validationComment" class="form-control" name="message" rows="3" required></textarea>
+                <div class="invalid-feedback">
+                  Escribenos un comentario, duda o sugerencia que tengas.
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button class="btn">Enviar</button>
+              </div>
             </form>
+
+            <!-- Mensaje mostrado despues de mandar comentario -->
+            <div style="display:none;" id="thankyou_message" class="pt-2">
+              <p>Gracias por contactarnos, nos pondremos en contacto con usted pronto!</p>
+            </div>
           </div> <!-- col-md-7 -->
         </div> <!-- row with contact info/form -->
       </div> <!-- container -->
@@ -582,6 +576,8 @@
     </footer>
 
     <script type="text/javascript" src="js/script.js"></script>
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
