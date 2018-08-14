@@ -38,30 +38,71 @@ body {
 
 .navbar {
   background: rgb(128,0,128);
-  z-index: 10;
+  padding: 0;
+  display: flex;
 }
 
-.navbar .navbar-brand,
-.navbar .nav-item { color: #fff; }
+.navbar a { text-decoration: none; }
 
-.navbar .navbar-brand:hover { color: #fff; }
+.navbar-logo {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-logo-title {
+  font-size: 1.25em;
+}
+
+.navbar-logo img {
+  height: 40px;
+  width: 40px;
+}
 
 .navbar-collapse {
-  flex-grow: 0;
-  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.navbar-collapse a {
+  margin-right: 1rem;
+}
+
+.nav-item {
+  color: white;
+  padding: 1em 0.5em;
 }
 
 .nav-item:hover,
 .nav-item:active {
-  background-color: #fff;
-  color: rgb(128,0,128) !important;
+  background-color: white;
+  color: rgb(128,0,128);
 }
 
-.navbar-toggler { background-color: #fff; }
+.navbar-toggler {
+  background-color: white;
+  font-size: 1rem;
+  margin: 0.75rem 1rem;
+}
 
-#btn-dona { background: rgba(230, 230, 250); }
+.navbar .btn { background: rgba(230, 230, 250); }
 
-a { cursor: pointer; }
+@media screen and (max-width: 990px) {
+  .nav-item {
+    margin-bottom: 0.25rem;
+  }
+
+  .navbar .btn {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1.25rem;
+    display: block;
+  }
+}
+
+
+
+
 
 /*
   ===
@@ -75,7 +116,7 @@ a { cursor: pointer; }
     url("assets/img/hero-image.JPG")
     center/cover;
   background-attachment: fixed;
-  color: #fff;
+  color: white;
   height: 100vh;
 }
 
@@ -280,11 +321,11 @@ hr {
 
 footer {
   background: rgb(128,0,128);
-  color: #fff;
+  color: white;
 }
 
 .oi-chevron-top {
-  color: #fff;
+  color: white;
   font-size: 24px;
 }
 
