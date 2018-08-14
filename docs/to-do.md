@@ -1,7 +1,6 @@
 # To-do
 
-### General
-- [ ] Add smooth scroll [like this](http://iamdustan.com/smoothscroll/).
+<!-- ### General -->
 
 ##### Navbar
 - [ ] Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
@@ -26,6 +25,7 @@
 - [x] ~~Add a horizontal rule below every section title [like this](https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm).~~
 - [x] ~~Center text in title-section~~
 - [x] ~~Update website information with new information.~~
+- [x] ~~Add smooth scroll [like this](http://iamdustan.com/smoothscroll/).~~
 
 #### Sections
 <!-- ##### Quienes somos -->

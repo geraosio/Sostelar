@@ -26,8 +26,8 @@ html, body {
 
 body {
   font-family: 'Poppins', sans-serif !important;
-  overflow-y: auto;
-  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -41,26 +41,27 @@ body {
   z-index: 10;
 }
 
-.navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
+.navbar .navbar-brand,
+.navbar .nav-item { color: #fff; }
+
+.navbar .navbar-brand:hover { color: #fff; }
+
+.navbar-collapse {
+  flex-grow: 0;
+  margin-left: auto;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.nav-item:hover,
+.nav-item:active {
   background-color: #fff;
   color: rgb(128,0,128) !important;
 }
 
-.navbar-toggler {
-  background-color: #fff;
-}
+.navbar-toggler { background-color: #fff; }
 
-#btn-dona {
-  background: rgba(230, 230, 250);
-}
+#btn-dona { background: rgba(230, 230, 250); }
 
-a {
-  cursor: pointer;
-}
+a { cursor: pointer; }
 
 /*
   ===
