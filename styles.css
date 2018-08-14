@@ -78,6 +78,12 @@ a { cursor: pointer; }
   color: #fff;
   height: 100vh;
 }
+
+@media screen and (max-width: 520px) {
+  .display-1 {
+    font-size: 4.5rem;
+  }
+}
 /*
   --- iPad with portrait orientation. ---
 */
