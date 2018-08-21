@@ -1,20 +1,5 @@
 # To-do
 
-<!-- ### General -->
-
-##### Navbar
-- [ ] Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
-
-<!-- ##### Que ofrecemos
-
-##### Alianzas
-
-##### Equipo
-
-##### Contacto
-
-##### Footer -->
-
 ## DONE
 
 #### General
@@ -22,6 +7,7 @@
 - [x] ~~Center text in title-section~~
 - [x] ~~Update website information with new information.~~
 - [x] ~~Add smooth scroll [like this](http://iamdustan.com/smoothscroll/).~~
+- [x] ~~Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).~~
 
 #### Sections
 <!-- ##### Quienes somos -->
