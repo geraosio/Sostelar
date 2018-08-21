@@ -348,6 +348,10 @@ hr {
   color: rgb(14,149,119);
 }
 
+#contacto label {
+  margin-bottom: .25rem;
+}
+
 #contacto button {
   background-color: rgba(139, 141, 122, 0.25);
 }
