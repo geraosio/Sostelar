@@ -1,5 +1,8 @@
+/******************************************************************************
+  Colors
+******************************************************************************/
+
 /*
-  ===COLORS===
   ---Custom purple---
   rgb(128,0,128)
   linear-gradient(135deg, rgba(128,0,128,0.75) 0%, rgba(230,230,250,0.5) 100%)
@@ -13,16 +16,31 @@
   linear-gradient(45deg, rgba(102,45,140,1) 0%, rgba(237,30,121,1) 100%);
 */
 
-/*
-  ===
-  === General ===
-  ===
-*/
+
+
+
+
+/******************************************************************************
+  Utilities
+******************************************************************************/
+
+.hide {
+  display: none !important;
+}
+
+
+
+
+
+/******************************************************************************
+  General
+******************************************************************************/
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 
 body {
   font-family: 'Poppins', sans-serif !important;
@@ -30,11 +48,13 @@ body {
   padding: 0;
 }
 
-/*
-  ===
-  === Navbar ===
-  ===
-*/
+
+
+
+
+/******************************************************************************
+  Header
+******************************************************************************/
 
 .navbar {
   background: rgb(128,0,128);
@@ -104,11 +124,13 @@ body {
 
 
 
+/******************************************************************************
+  Main
+******************************************************************************/
+
 /*
-  ===
-  === Title Section ===
-  ===
-*/
+ * Title
+ */
 
 .title-section {
   background:
@@ -125,18 +147,16 @@ body {
     font-size: 4.5rem;
   }
 }
-/*
-  --- iPad with portrait orientation. ---
-*/
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+
+/* iPad with portrait orientation. */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .title-section {
     height: 1024px;
   }
 }
-/*
-  --- iPad with landscape orientation. ---
-*/
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+
+/* iPad with landscape orientation. */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
   .title-section {
     height: 768px;
   }
@@ -146,11 +166,11 @@ body {
   height: 100%;
 }
 
+
+
 /*
-  ===
-  === Sections ===
-  ===
-*/
+ * Sections
+ */
 
 h2 {
   color: rgb(128,0,128);
@@ -171,9 +191,11 @@ hr {
   box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
 }
 
+
+
 /*
-  --- Quienes somos ---
-*/
+ * Quienes somos
+ */
 
 #quienes-somos h4 {
   font-weight: 600;
@@ -197,9 +219,12 @@ hr {
   width: 65%;
 }
 
+
+
 /*
-  --- Que ofrecemos ---
-*/
+ * Que ofrecemos
+ */
+
 #que-ofrecemos {
   background: rgba(230, 230, 250, 0.3);
 }
@@ -231,18 +256,23 @@ hr {
   font-weight: 600;
 }
 
+
+
 /*
-  --- Alianzas ---
-*/
+ * Alianzas
+ */
 
 #alianzas img {
   height: auto;
   max-width: 100%;
 }
 
+
+
 /*
-  --- Equipo ---
-*/
+ * Equipo
+ */
+
 #equipo {
   background: rgba(230, 230, 250, 0.3);
 }
@@ -286,9 +316,11 @@ hr {
 }
 
 
+
 /*
-  --- Contacto ---
-*/
+ * Contacto
+ */
+
 .contact-icons {
   padding: 0 1em;
 }
@@ -323,11 +355,29 @@ hr {
   color: white;
 }
 
-/*
-  ===
-  === Footer ===
-  ===
-*/
+#thankyou-message {
+  align-items: center;
+  background-color: rgba(128, 0, 128, 0.8);
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  height: 75%;
+  justify-content: center;
+  width: 100%;
+}
+
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
+
+
+
+
+
+/******************************************************************************
+  Footer
+******************************************************************************/
 
 footer {
   background: rgb(128,0,128);

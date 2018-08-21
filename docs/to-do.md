@@ -5,10 +5,6 @@
 ##### Navbar
 - [ ] Fix scrollspy (Not working) [useful info](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp).
 
-### Sections
-##### Quienes somos
-- [ ] Search for a serif font for paragraphs
-
 <!-- ##### Que ofrecemos
 
 ##### Alianzas

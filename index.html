@@ -527,43 +527,55 @@
             </div> <!-- row address -->
           </div> <!-- col-md-5 -->
           <div class="col-md-7">
-            <form class="needs-validation" novalidate>
-              <div class="form-row">
-                <div class="col mb-2">
-                  <label class="pl-1" for="validationName">Nombre</label>
-                  <input type="text" class="form-control" id="validationName" placeholder="Nombre" required>
-                  <div class="invalid-feedback">
-                    Porfavor escribe tu nombre para poder dirigirnos
-                  </div>
-                </div> <!-- col name -->
-              </div> <!-- form row name -->
-              <div class="form-row">
-                <div class="col mb-2">
-                  <label class="pl-1" for="validationEmail">Email</label>
-                  <input type="email" class="form-control" id="validationEmail" placeholder="Email" required>
-                  <div class="valid-feedback">
-                    Parece que esta bien!
-                  </div>
-                  <div class="invalid-feedback">
-                    Porfavor escribe tu correo electronico para poder contactarte
-                  </div>
-                </div> <!-- col email -->
-              </div> <!-- form row email -->
-              <div class="form-row">
-                <div class="col mb-2">
-                  <label class="pl-1" for="validationComment">Comentario</label>
-                  <textarea class="form-control" id="validationComment" rows="3" required></textarea>
-                  <div class="invalid-feedback">
-                    Escribenos un comentario, duda o sugerencia que tengas.
-                  </div>
-                </div> <!-- col comment -->
-              </div> <!-- form row comment -->
-              <div class="form-row">
-                <div class="col d-flex justify-content-end mt-2">
-                  <button type="submit" class="btn">Enviar</button>
-                </div> <!-- col button -->
-              </div> <!-- form row button -->
+
+            <form class="gform needs-validation" method="post" action="https://script.google.com/macros/s/AKfycbz3xiE3nv4Itd-yJZU-DY5wBXlPtY1R_XY3jla2Xk0hVtNQ-w0/exec">
+
+              <label class="sr-only">Keep this field blank</label>
+              <input id="honeypot" type="text" name="honeypot" value="">
+
+              <div class="form-container">
+                <div class="form-row">
+                  <div class="col mb-2">
+                    <label class="pl-1" for="validationName">Nombre</label>
+                    <input type="text" name="name" class="form-control" id="validationName" placeholder="Nombre" required>
+                    <div class="invalid-feedback">
+                      Porfavor escribe tu nombre para poder dirigirnos.
+                    </div>
+                  </div> <!-- col name -->
+                </div> <!-- form row name -->
+                <div class="form-row">
+                  <div class="col mb-2">
+                    <label class="pl-1" for="validationEmail">Email</label>
+                    <input type="email" name="email" class="form-control" id="validationEmail" placeholder="Email" required>
+                    <div class="valid-feedback">
+                      Perfecto!
+                    </div>
+                    <div class="invalid-feedback">
+                      Porfavor escribe tu correo electronico para poder contactarte.
+                    </div>
+                  </div> <!-- col email -->
+                </div> <!-- form row email -->
+                <div class="form-row">
+                  <div class="col mb-2">
+                    <label class="pl-1" for="validationComment">Comentario</label>
+                    <textarea class="form-control" name="message" id="validationComment" rows="3" required></textarea>
+                    <div class="invalid-feedback">
+                      Escribenos un comentario, duda o sugerencia que tengas.
+                    </div>
+                  </div> <!-- col comment -->
+                </div> <!-- form row comment -->
+                <div class="form-row">
+                  <div class="col d-flex justify-content-end mt-2">
+                    <button type="submit" class="btn">Enviar</button>
+                  </div> <!-- col button -->
+                </div> <!-- form row button -->
+              </div>
             </form>
+
+            <div id="thankyou-message" class="hide">
+              <h3>Gracias por contactarnos!</h3>
+            </div>
+
           </div> <!-- col-md-7 -->
         </div> <!-- row with contact info/form -->
       </div> <!-- container -->
@@ -579,18 +591,24 @@
     </footer>
 
     <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous">
+    </script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous">
+    </script>
 
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="js/form-submission-handler.js">
+    </script>
     <script src="js/script.js"></script>
   </body>
 </html>
